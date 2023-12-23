@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <section class="application">
+      <div class="nav-bar">
+        <nav>
+         <a href="./">Application Form</a><br>
+         <a href="./About/about.html">About SEO</a>
+        </nav>
+      </div>
+
+      <div class="form-application">
+      <h1>Application Form</h1>
+      </div>
+    
+      <p>Fill In Your Details</p>
+        <section class="form-application">
+
+          <form action="/signup" method="post">
+            <p>
+                <label for="first-name">First name</label><br>
+                  <input type="text" name="first_name" placeholder="First Name">
+            </p>           
+
+            <p>
+                <label for="last-name">Last name</label><br>
+                  <input type="text" name="last_name" placeholder="Last Name">
+            </p>
+
+            <p>
+                <label for="gender">Gender:</label><br>
+                <select name="gender" id="">
+                  <option value="">Select gender</option>
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                  <option value="non-binary">Non-Binary</option>
+                  <option value="other">Other</option>
+                  <option value="Prefer not to answer">Perfer not to Answer</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="birthday">Date of Birth:</label><br>
+                  <input type="date" id="birthday" name="birthday">
+            </p>
+
+            <p>
+              <label>Email Address</label><br>
+                <input type="email" name="email" required placeholder="E-mail">
+            </p>
+            
+            <p>
+                <label for="education">Educational Level</label><br>
+                  <select name="gender" id="">
+                    <option value="">level of education</option>
+                    <option value="olevel">O'level</option>
+                    <option value="College">College</option>
+                    <option value="Bsc">Bsc</option>
+                    <option value="Msc">Msc</option>
+                    <option value="phd">Phd</option>
+                    <option value="others">Others</option>
+                  </select>
+            </p>
+
+            <p>
+                <label>Country</label><br>
+                  <select name="country-list" id="">
+                      <option value="" required=""></option>
+                      <option data-countryCode="NG" value="234">Nigeria (+234)</option>
+                      <option data-countryCode="RW" value="250">Rwanda (+250)</option>
+                      <option data-countryCode="GH" value="233">Ghana (+233)</option>
+                      <option data-countryCode="KE" value="254">Kanye (+254)</option>
+                      <option data-countryCode="GB" value="244">UK (+44)</option>
+                  </select>
+            </p>
+            
+            <p>
+                <label>State/city of Residence</label><br>
+                  <input type="text" name="state/city" placeholder="State/city of residence">
+            </p>
+            
+            <p>
+                <label>Employment</label><br>
+                  <select name="employment" id="">
+                    <option value="" required="">Select employment status</option>
+                    <option value="Employed">Employed</option>
+                    <option value="Unemployed">Unemployed</option>
+                    <option value="Self-employed">Self-employed</option>
+                    <option value="others">Others</option>
+                  </select>
+            </p>
+
+            <p>
+              <label>Phone Number</label><br>
+                <input type="tel" name="phone" placeholder="08170193841">
+            </p>
+
+            <p>
+             <label>Choose School</label><br>
+                <select name="select-school" id="">
+                  <option value="" required="">Select school</option>
+                  <option value="Creative">School Of Creative Economy</option>
+                  <option value="Business">School Of Business</option>
+                  <option value="Engerineering">School Of Engineering</option>
+                </select>
+            </p>
+
+            <p>
+             <label>Choose Course of Study</label><br>
+                <select name="select-school" id="">
+                  <option value="" required="">Select Course</option>
+                  <option value="music-business">Music Business</option>
+                  <option value="content">Content Mastery</option>
+                  <option value="selling">High Impact Selling</option>
+                  <option value="front-end">Front-End Engineering</option>
+                  <option value="back-end">Back-End Engineering</option>
+                  <option value="cloud">Cloud Engineering</option>
+                </select>
+            </p>
+
+            <p>
+                <label>How Did You Hear About Us?</label><br>
+                   <select name="about-us" id="">
+                     <option value="" required="">Select Channel</option>
+                     <option value="Twitter">Twitter</option>
+                     <option value="Facebook">Facebook</option>
+                     <option value="Instagram">Instagram</option>
+                     <option value="Youtube">Youtube</option>
+                     <option value="Linkdein">Linkdein</option>
+                     <option value="Whatsapp">Whatsapp</option>
+                     <option value="Friends">Friends</option>
+                     <option value="Others">Others</option>  
+                   </select>
+               </p>
+            
+            <p>
+              <label>
+                <input type="checkbox" value="terms">
+                By clicking, you agree to the <a href="/terms">Terms of Use</a> and acknowledge that
+                i have read the <a href="/private-policy">Privacy Policy</a>
+              </label>
+            </p>
+
+            <p>
+              <button type="submit"><span>PROCEED</span></button>
+            </p>
+
+            <p>
+               Already have an account?<a href="#"> Sign In</a>
+            </p>
+          </form>
+        </section> 
+    </section>
+</body>
+</html>
